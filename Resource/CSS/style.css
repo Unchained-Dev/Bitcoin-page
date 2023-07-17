@@ -1,0 +1,364 @@
+/*--------------------------*/
+/* BASIC SETUP */
+/*--------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    color: #555;
+    font-family: "Lato", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------------------------*/
+/* REUSABLE COMPONENTS */
+/*--------------------------*/
+
+.row{
+    max-width: 1259.6px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 80px 0;
+}
+
+/*--------------------------*/
+/*---------HEADINGS---------*/
+/*--------------------------*/
+
+h1{
+    font-size: 290%;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 30px
+    
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 9px;
+    color: #393939;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #0000ff;;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3{
+     clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 200;
+    font-size: 110%;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 120%;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    background-color: #0000ff;
+    border-radius: 200px;
+    position: relative;
+}   
+
+h5{
+    font-size: 200%;
+    text-align: center;
+    color: #000;
+    font-weight: 300;
+    padding: 10% 0 0 0;
+}
+
+h5:after {
+    display: block;
+    height: 1px;
+    background-color: #c7c7c7;
+    content: " ";
+    width: 100%;
+    margin-top: ;
+}
+
+h6{
+    text-align: center;
+    font-size: 100%;
+    margin-bottom: 20px;
+}
+
+/*--------------------------*/
+/*---------BUTTONS----------*/
+/*--------------------------*/
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 200px;
+    font-weight: 300;
+    display: inline-block;
+    font-size: 120%;
+}
+
+.spc:link,
+.spc:visited{
+     text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 200px;
+    font-weight: 300;
+    display: inline-block;
+    font-size: 120%;
+    background-color: #5a5af0;
+    border:1px solid #0000ff;
+    color: #ffffff;
+}
+
+.spc:hover,
+.spc:active{
+    background-color: #0000ff;
+    color: #888888;
+}
+
+.lpc:link,
+.lpc:visited{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 200px;
+    font-weight: 300;
+    display: inline-block;
+    font-size: 120%;
+    border:1px solid #0000ff;
+}
+
+.lpc:hover,
+.lpc:active{
+     background-color: #0000ff;
+    color: #888888;
+}
+
+.btn-opq:link,
+.btn-opq:visited{
+    background-color: #5a5af0;
+    border:1px solid #0000ff;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.btn-trp:link,
+.btn-trp:visited{
+    color: #5a5af0;
+    border:1px solid #0000ff;
+}
+
+
+.btn:hover,
+.btn:active{
+    background-color: #0000ff;
+    color: #888888;
+}
+
+
+/*--------------------------*/
+/*----------HEADER----------*/
+/*--------------------------*/
+
+header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(LOGO8.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+
+.main-txt {
+    position: absolute;
+    width: 80%;
+    left: 20%;
+    top: 40%;
+    
+    color: #fff;
+   
+}
+
+.nav-main{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+    padding-bottom: 30px;
+    padding-top: 55px;
+    list-style: none;
+    float: right;
+}
+
+.nav-main li{
+    display: inline-block;  
+    text-align: center;
+}
+
+.nav-main li a:link,
+.nav-main li a:visited{
+    text-decoration: none;
+    font-size: 120%;
+    color: #bebebe;
+    border-bottom: 30px solid transparent;
+    transition: border-bottom: 0,2s;
+    text-transform: uppercase;   
+}
+
+.nav-main li a:hover,
+.nav-main li a:active{
+    text-decoration: none;
+    font-size: 120%;
+    color: #bebebe;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #0000ff;       
+}
+
+/*-----------------------------------*/
+/*------------HOW IT WORKS-----------*/
+/*-----------------------------------*/
+.how-it-works {
+    background-color: #e8e8e8;
+}
+
+.icon1,
+.icon2,
+.icon3{
+    color: #5a5af0;
+    font-size: 320%; 
+    background-color: #dcdcdc;
+    border-radius: 200px;
+}
+
+.icon1{
+    padding: 12% 15%;
+}
+
+.icon2{
+    padding: 10% 16%;
+}
+
+.icon3{
+    padding: 11% 15%;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.step-one,
+.step-three{
+    margin-top: 20%;
+}
+
+.steps span{
+     display: flex;
+    justify-content: center;
+}
+
+.steps p{
+    text-align: center;
+}
+
+.num{
+    display: flex;
+    justify-content: center;
+}
+
+.icon1:hover,
+.icon1:active,
+.icon2:hover,
+.icon2:active,
+.icon3:hover,
+.icon3:active{
+    border: 1px solid #0000ff;
+    border-radius: 200px;
+}
+/*--------------------------*/
+/*--------Plan-prices-------*/
+/*--------------------------*/
+
+.plan-box {
+    background-color: #ffffff;
+    box-shadow: 0 2px 2px #000000;
+    margin-left: 5%;'
+    margin-right: 0
+    
+}
+
+.plan-box p{
+   padding: 10px 20px 15px 20px;   
+    
+}
+
+.plan-box div:last-child{
+    text-align: center;
+    padding: 15px
+}
+
+
+.mining-sub{
+    font-size:250%;
+    font-weight: 100;
+    color: #5a5af0;
+}
+
+.mining-sub span{
+    font-size:25%;
+    font-weight: 500;
+}
+
+.Section-plans {
+   background-color: #f0ecec;
+}
+
+
+.l{
+    border-bottom: 1px solid #c7c7c7;
+}
+.bil {
+    color: #5a5af0;
+}
+
+.plan-icon {
+    margin-right: 10px;
+    color: #0000ff;
+}
+
+
+ul li{
+    padding: 15px;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.col{width: 32%}

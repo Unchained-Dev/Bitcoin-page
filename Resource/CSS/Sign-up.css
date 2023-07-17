@@ -1,0 +1,76 @@
+*{margin: 0; padding: 0;
+}
+
+body{
+   background-image: url(LOGO4.jpg);
+   background-size: cover;
+   background-position: center;
+   margin: 0;
+   padding: 0;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
+
+p{
+    color: #d4d4d4;
+}
+
+.sign-up{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.16));
+    padding: 20px;
+    margin: 90px auto 0;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.sign-up h1{
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 75%;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.sign-btn{
+    background-color: #1c8adb;
+}
+
+.tweet-btn{
+    background-color: #21afde;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.or{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.13));
+    width: 30px;
+    margin: -10px auto 10px;
+    color: #fff;
+}
